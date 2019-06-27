@@ -97,19 +97,19 @@ const parent = {
   "name": 'Susan',
   "age": 70,
   speak: () => {
-    return `Hi, my name is ${this.name}`;
+    return `Hi, my name is ${parent.name}`;
   },
   child: {
   "name": 'George',
     "age": 50,
     speak: () => {
-      return `Hi, my name is ${this.name}`;
+      return `Hi, my name is ${parent.child.name}`;
     },
     grandchild: {
       "name": 'Sam',
       "age": 30,
       speak: () => {
-        return `Hi, my name is ${this.name}`;
+        return `Hi, my name is ${parent.child.grandchild.name}`;
       }
     }
   }
