@@ -20,7 +20,7 @@ const example = {
 // Write your intern objects here:
 const mitzi = {
   "id": 1,
-  "email": 'mmelloy0@PushSubscription.edu',
+  "email": "mmelloy0@PushSubscription.edu",
   "first_name": 'Mitzi',
   "gender": 'F'};
 
@@ -58,7 +58,7 @@ const kennan =  {
 // Mitzi's name
 console.log(mitzi.first_name);
 // Kennan's ID
-console.log(kennan].id);
+console.log(kennan.id);
 // Keven's email
 console.log(keven.email);
 // Gannie's name
@@ -71,7 +71,7 @@ console.log(antonietta.gender);
 // console.log(kennan.speak());
 
 kennan.speak = () => {
-  return `Hello, my name is ${first_name}!`;
+  return `Hello, my name is ${kennan.first_name}!`;
 }
 console.log(kennan.speak());
 

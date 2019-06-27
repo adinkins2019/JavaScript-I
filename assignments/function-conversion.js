@@ -20,12 +20,12 @@
 // };
 // subtract(1,2);
 
-let myFunction () => {
+let myFunction = () => {
     console.log("Function was invoked!");
 };
 myFunction();
 
-let anotherFunction (param) => {
+let anotherFunction = (param) => {
     return param;
 };
 anotherFunction("Example");
@@ -35,7 +35,7 @@ let add = (param1, param2) => {
 };
 add(1,2);
 
-let subtract (param1, param2) => {
+let subtract = (param1, param2) => {
     return param1 - param2;
 };
 subtract(1,2);
