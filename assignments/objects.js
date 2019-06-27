@@ -99,15 +99,15 @@ const parent = {
   this.speak: () => {
     return `Hi, my name is ${this.name}`;
   },
-  const child = {
-    "name": 'George',
+  child: {
+  "name": 'George',
     "age": 50,
     this.speak: () => {
       return `Hi, my name is ${this.name}`;
     },
-    const grandchild = {
+    grandchild: {
       "name": 'Sam',
-      "age": 30
+      "age": 30,
       this.speak: () => {
         return `Hi, my name is ${this.name}`;
       }
