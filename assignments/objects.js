@@ -96,19 +96,19 @@ console.log(antonietta.multiplyNum(3,4));
 const parent = {
   "name": 'Susan',
   "age": 70,
-  this.speak: () => {
+  speak: () => {
     return `Hi, my name is ${this.name}`;
   },
   child: {
   "name": 'George',
     "age": 50,
-    this.speak: () => {
+    speak: () => {
       return `Hi, my name is ${this.name}`;
     },
     grandchild: {
       "name": 'Sam',
       "age": 30,
-      this.speak: () => {
+      speak: () => {
         return `Hi, my name is ${this.name}`;
       }
     }
